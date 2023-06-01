@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    
+}
+
+body :before {
+    content: "";
+    background-image: url(./record.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.01;
+    background-position: center;
+}
+
+.banner {
+    background-color: black;
+    color: beige;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+    background-color: lightgray;
+}
