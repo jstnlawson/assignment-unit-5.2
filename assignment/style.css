@@ -12,8 +12,9 @@ body :before {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.01;
+    opacity: 0.015;
     background-position: center;
+    background-color: beige;
 }
 
 .banner {
@@ -22,7 +23,7 @@ body :before {
     text-align: center;
 }
 
-main {
+.info {
     padding: 1em;
     background-color: lightgray;
 }
