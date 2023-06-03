@@ -12,7 +12,7 @@ body :before {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.015;
+    opacity: 0.006;
     background-position: center;
     background-color: beige;
 }
@@ -21,9 +21,27 @@ body :before {
     background-color: black;
     color: beige;
     text-align: center;
+    font-family: sans-serif;
+    
 }
 
 .info {
     padding: 1em;
-    background-color: lightgray;
+    margin: auto;
+    background-color: #eaeaea;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    border: 10px double black;
+    border-radius: 50%;
+    height: 395px;
+    width: 395px;
+    line-height: 360px;
+}
+
+.footer {
+    background-color: black;
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
 }
